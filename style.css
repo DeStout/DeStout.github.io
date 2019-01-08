@@ -1,0 +1,52 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: black;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+    background-color: steelblue;
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    height: 100%;
+    float: right;
+}
+
+#home {
+    float: left;
+}
+
+.blade {
+    background: lightblue;
+    float: left;
+    width: 150px;
+    height: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+.blade span {
+    font-size: 3em;
+    padding: 25px;
+    writing-mode: vertical-rl;
+}
+
+.panel {
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    display: none;
+    text-align: center;
+    overflow: hidden;
+}
+
+.visible {
+    display: inline;
+}
